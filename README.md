@@ -13,3 +13,31 @@ Você vai iniciar uma aplicação Next.js do zero na sua própria máquina e imp
 </p>
 
 <h3>Tecnologias</h3>
+
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [chakra](https://chakra-ui.com/)
+- [Swiper](https://swiperjs.com/)
+- [JSON](https://www.json.org/json-en.html)
+- [axios](https://github.com/axios/axios)
+
+<h3>Configuração do projeto</h3>
+
+```
+# Abra o terminal e clone o repositório com o comando.
+https://github.com/rodrigopfialho/worldtrip.git
+
+#Instalar as dependências 
+yarn
+
+#Inicializar a API fake
+yarn server
+
+#Inicializar o site
+yarn dev
+ 
+O site estarar disponível em http://localhost:3000
+```
+
+![App Screenshot]()
