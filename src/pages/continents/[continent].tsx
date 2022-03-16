@@ -18,7 +18,6 @@ type ContinentType = {
       cityName: string;
       countryName: string;
       cityImage: string;
-      countryCode: string;
       countryImage: string;
     }]
   }
@@ -164,7 +163,6 @@ export default function Continent({continent}:ContinentProps) {
                             name={city.cityName}
                             image={city.cityImage}
                             countryName={city.countryName}
-                            countryCode={city.countryCode}
                             countryImage={city.countryImage}
                         />
                 ))}

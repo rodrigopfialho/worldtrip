@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import {Autoplay, Pagination, Navigation } from "swiper";
 import {SlideItem} from './SlideItem'
 
 
@@ -17,14 +17,19 @@ export default function Slide() {
     <>
       <Swiper
         slidesPerView={1}
+        centeredSlides={true}
         spaceBetween={30}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         style={{width: '100%', flex: '1', height: '100vh'}}
         loop={true}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"   
        >
         <SwiperSlide>
@@ -32,7 +37,7 @@ export default function Slide() {
           name='Europa'
           description='O continente mais antigo.'
           link='europa'
-          imageUrl="/images/europa2.jpg"
+          imageUrl="/images/europe.jpg"
         />
       </SwiperSlide>
 

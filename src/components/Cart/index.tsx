@@ -3,12 +3,11 @@ import { Box, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
 interface CardItemsProps {
     name: string;
     countryName: string;
-    image: string;
-    countryCode?: string;
+    image: string;  
     countryImage: string;
 }
 
-export function Cart({ name, countryName, image, countryCode, countryImage }: CardItemsProps) {
+export function Cart({ name, countryName, image,  countryImage }: CardItemsProps) {
     return (
         <Flex
             width="90%"
