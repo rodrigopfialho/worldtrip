@@ -40,4 +40,5 @@ yarn dev
 O site estarar disponível em http://localhost:3000
 ```
 
-![App Screenshot]()
+![App Screenshot](https://github.com/rodrigopfialho/worldtrip/blob/main/public/images/p1.png)
+![App Screenshot](https://github.com/rodrigopfialho/worldtrip/blob/main/public/images/p2.png)
